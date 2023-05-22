@@ -1,0 +1,67 @@
+.enjoy-css {
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: .5px solid rgb(232, 238, 241);
+  border-radius: 20px;
+  font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+  color: rgb(119, 126, 128);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+}
+.enjoy-cssx {
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+}
+.inner-addon { 
+    position: relative; 
+}
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+ .border-top {
+      border-top: 5px solid #33b5e5 !important;
+      border-top-left-radius: .25rem!important;
+    	border-top-right-radius: .25rem!important;
+    }
+	.card-1{
+	  border-radius: 2px;
+	  background: #fff;
+	  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+	  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+	  cursor: pointer;
+	}
+
+	.card-1:hover{
+	  transform: scale(1.05);
+	  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+	}
+.category{
+  text-align:center;
+  font-size:10px;
+  font-weight:bold;
+  padding:5px;
+  margin-bottom:45px;
+  position:relative;
+  transition: all 0.2s ease-in-out;
+}
+.category > *{
+  position:absolute;
+  top:80%;
+  left:80px;   
+}
+.category > span{
+  padding: 6px 20px;
+  border: 1px solid #313131;
+  background:#212121;
+  color:#fff;
+  border-radius:27px;
+}
+
